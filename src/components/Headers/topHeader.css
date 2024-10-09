@@ -1,0 +1,26 @@
+.topHeader {
+  background-color: var(--gray-scale-gray-–-800);
+  color: var(--gray-scale-gray-–-300);
+  padding: 13px 0;
+}
+
+.topHeader p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 130%;
+}
+.topHeader p span {
+  font-size: 20px;
+}
+
+.topHeader .formInput {
+  border-right: 1px solid rgba(255, 255, 255, 0.5);
+  margin-right: 20px;
+}
+
+.topHeader .loginRoutes {
+  color: var(--gray-scale-gray-–-300);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 130%;
+}

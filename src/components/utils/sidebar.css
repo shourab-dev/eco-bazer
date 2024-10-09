@@ -1,0 +1,51 @@
+
+.sidebar{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: 9999999;
+    top: 0;
+    background-color: #00000069;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.25s ;
+}
+.sidebar .sidebarCnt{
+    background-color: #fff;
+    max-width: 350px;
+    width: 80%;
+    height: 100%;
+    overflow-y: auto;
+    position: relative;
+    transform: translateX(-100%);
+    transition: 0.35s ;
+}
+
+.sidebar.open {
+    opacity: 1;
+    visibility: visible;
+}
+
+.sidebar.open .sidebarCnt{
+    transform: translateX(0);
+}
+
+
+.sidebar .sidebarCnt ul{
+    padding: 100px 40px;
+}
+
+.sidebar .sidebarCnt ul a{
+    color: black;
+    display: block;
+    padding: 15px 0;
+}
+
+.sidebar .sidebarCnt .closeBtn{
+    position: absolute;
+    border: 0;
+    outline: none;
+    right: 20px;
+    top: 20px;
+    background-color: transparent;
+}

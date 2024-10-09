@@ -1,0 +1,14 @@
+.mblHeader{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 15px 0;
+}
+.menu button{
+    border: none;
+    background-color: transparent;
+    font-size: 25px;
+    color: var(--branding-success);
+}
+.quickLinks a{
+    font-size: 25px;
+    color: black;
+}

@@ -1,0 +1,23 @@
+.heading{
+    margin-bottom: 40px;
+}
+.heading h2 {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 120%;
+  color: var(--gray-scale-gray-–-900);
+}
+@media (max-width: 575px){
+    .heading h2{
+        font-size: 25px;
+    }
+}
+
+.heading a {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--branding-success);
+}

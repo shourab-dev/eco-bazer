@@ -1,0 +1,87 @@
+.bottomHeader {
+  background: var(--gray-scale-gray-–-50);
+}
+
+a.phoneNumber {
+  font-family: var(--font-family);
+  padding: 14px 0;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  color: var(--gray-scale-gray-–-900);
+}
+
+a.phoneNumber span {
+  font-size: 28px;
+  margin-right: 8px;
+}
+
+.categoryMenu {
+  background-color: red;
+  max-width: 218px;
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+.categoryMenu button {
+  width: 100%;
+  height: 100%;
+  background: var(--branding-success);
+  border: none;
+  outline: none;
+  color: white;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  color: var(--gray-scale-white);
+}
+.categoryMenu button .downArrow {
+  margin-left: 8px;
+}
+
+.categoryMenu .categoryDropdown {
+  position: absolute;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transform: scaleY(0);
+  transform-origin: top;
+  opacity: 0;
+  transition: 0.25s ease-in;
+}
+
+.categoryMenu.isActive .categoryDropdown {
+  transform: scaleY(1);
+  opacity: 1;
+}
+
+.categoryMenu .categoryDropdown a {
+  padding: 10px 13px;
+  display: block;
+  border-bottom: 1px solid #888;
+  color: #000;
+  transition: 0.3s;
+}
+
+.categoryMenu .categoryDropdown li:last-child a {
+  border: none;
+}
+
+.categoryMenu .categoryDropdown a:hover {
+  color: var(--branding-success);
+  padding-left: 20px;
+}
+
+.primaryMenu a {
+  display: block;
+  padding: 0 16px;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  color: var(--gray-scale-gray-–-500);
+}
+.primaryMenu a.active,
+.primaryMenu a:hover{
+    color: var(--branding-success);
+}

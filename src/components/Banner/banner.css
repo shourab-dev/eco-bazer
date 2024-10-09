@@ -1,0 +1,53 @@
+.bannerSlide {
+  height: 640px;
+}
+.bannerSlider {
+  background-size: cover !important;
+}
+
+#banner .bannerSlider h5 {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--branding-success);
+}
+
+#banner .bannerSlider h2 {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 120%;
+  color: var(--gray-scale-gray-–-900);
+  margin: 8px 0 28px;
+}
+#banner .bannerSlider h3 {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 120%;
+  color: var(--gray-scale-gray-–-900);
+  margin-bottom: 12px;
+}
+
+#banner .bannerSlider h3 span {
+  font-weight: 600;
+  color: var(--branding-warning);
+}
+
+#banner .bannerSlider p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: var(--gray-scale-gray-–-500);
+}
+
+.nextArrow{
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  z-index: 99;
+}

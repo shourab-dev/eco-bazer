@@ -1,0 +1,79 @@
+.middleHeader {
+  padding: 24px 0;
+}
+.searchArea {
+  min-width: 500px;
+}
+.searchArea input {
+  width: 80%;
+  padding: 12px 18px 12px 44px;
+  max-width: 400px;
+  height: 45px;
+  border: 1px solid var(--gray-scale-gray-–-300);
+  border-radius: 6px 0 0 6px;
+  outline: none;
+}
+.searchArea button {
+  border-radius: 0 6px 6px 0;
+  padding: 14px 24px;
+  border: none;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 120%;
+  color: var(--gray-scale-white);
+  background: var(--branding-success);
+}
+
+.searchicon {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+}
+
+.middleHeader .links li a {
+  color: var(--gray-scale-gray-–-900);
+  font-size: 30px;
+  padding: 0 18.16px;
+  border-right: 1px solid var(--gray-scale-gray-–-200);
+}
+.middleHeader .links li:last-child a {
+  border: none;
+}
+.middleHeader .cartIcon{
+    position: relative;
+}
+.middleHeader .cartIcon .cartCount {
+  border: 1px solid var(--gray-scale-white);
+  border-radius: 16px;
+  width: 18px;
+  height: 18px;
+  background: var(--branding-success-dark);
+  display: block;
+  font-weight: 500;
+  font-size: 10px;
+  position: absolute;
+  text-align: center;
+  color: var(--gray-scale-white);
+  line-height: 18px;
+  top: 13px;
+  right: -4px;
+}
+
+.middleHeader .cardDetail {
+  margin-left: 12px;
+}
+.middleHeader .cardDetail h5 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  color: var(--gray-scale-gray-–-900);
+}
+.middleHeader .cardDetail p {
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 120%;
+  color: var(--gray-scale-gray-–-700);
+}
